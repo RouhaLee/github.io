@@ -1,37 +1,31 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      pygments
+markdown: kramdown
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 #relative_permalinks: true
 
 # Setup
-title:            Sum of i
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-baseurl:          "/"
+title: Hyde
+tagline: 'A Jekyll theme'
+description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content.'
+url: "https://rouhalee.github.io"
+baseurl: "/"
 
-timezone: Asia/Seoul
+author:
+  name: 'Rouha Lee'
+  url: https://twitter.com/mdo
 
-url: "https://RouhaLee.github.io"
+paginate: 5
+
+# Custom vars
+version: 2.1.0
 
 github:
   username: RouhaLee
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+  repo: https://github.com/RouhaLee/RouhaLee.github.io
 
 plugins:
   - jekyll-gist
-
-
+  - jekyll-paginate
